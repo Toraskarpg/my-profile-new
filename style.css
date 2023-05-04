@@ -1,0 +1,96 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Merriweather&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+
+
+*{
+margin: 0px;
+padding: 0px;
+/* list-style-type: none; */
+}
+
+header nav{
+    text-align: end;
+    background-color: #10ac84;
+    margin: 10px;
+}
+header nav ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    font-family: 'Bree Serif', serif;
+}
+
+header nav ul li a{
+     text-decoration:none;
+     color: #0a0a0af2;
+     font-weight: bolder;
+     
+}
+.info img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 150px;
+        
+}
+ .container{
+    margin-left: 5%;
+    margin-right: 5%;
+       
+ }
+ .contactInfo{
+    padding-top: 40px;
+    line-height:30px;
+    height: 160px;
+ }
+ .contactInfo h3 {
+    color: #8e44ad;
+    font-size: 40px;
+    text-shadow: rgb(189, 79, 79) 2px 3px 4px;  
+    word-spacing: 5px;
+    letter-spacing: 6px;
+    line-height: 40px;
+ }
+
+ .contactInfo p{
+    color: #543d5e;
+    font-weight: bolder;
+    font-size: larger;
+
+ }
+
+ .summary h3{
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    margin-top: 10px ;  
+    margin-bottom: 10px;
+    color: #8e44ad;
+    
+ }
+
+ .summary ul li{
+     line-height: 30px;
+     font-weight: bolder;
+     color: #543d5e;
+     list-style: none;
+     
+ }
+
+ .summary ul li::selection{
+    color: orange;
+    background-color: orange;  
+ }
+
+.summary ul li::before{
+    content: '✍️';
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+
