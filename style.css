@@ -14,8 +14,9 @@ padding: 0px;
 
 header nav{
     text-align: end;
-    background-color: #10ac84;
+    background-color: #50bea7;
     margin: 10px;
+    
 }
 header nav ul li{
     display: inline-block;
@@ -26,7 +27,7 @@ header nav ul li{
 
 header nav ul li a{
      text-decoration:none;
-     color: #0a0a0af2;
+     color: #000000;
      font-weight: bolder;
      
 }
@@ -49,35 +50,42 @@ header nav ul li a{
     height: 160px;
  }
  .contactInfo h3 {
-    color: #8e44ad;
+    color: #20bf6b;
     font-size: 40px;
-    text-shadow: rgb(189, 79, 79) 2px 3px 4px;  
+    text-shadow: #4b4b4b 4px 5px 5px;  
     word-spacing: 5px;
     letter-spacing: 6px;
-    line-height: 40px;
+    line-height: 40px;  
  }
 
  .contactInfo p{
-    color: #543d5e;
+    color: #218c74;
     font-weight: bolder;
     font-size: larger;
 
  }
 
- .summary h3{
+ h3{
     font-family: 'Orbitron', sans-serif;
-    letter-spacing: 4px;
-    word-spacing: 10px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
     margin-top: 10px ;  
     margin-bottom: 10px;
-    color: #8e44ad;
+    color: #000000;
+    padding-left: 10px;
     
+    
+ }
+ .summary h3{
+   background-color: #50bea7;
+   border:1px solid #000000; 
+   box-shadow: 13px 13px 10px -8px rgb(82, 80, 80);
  }
 
  .summary ul li{
      line-height: 30px;
      font-weight: bolder;
-     color: #543d5e;
+     color:#218c74;
      list-style: none;
      
  }
@@ -92,5 +100,36 @@ header nav ul li a{
     font-size: 18px;
     padding-right: 10px;
 }
+   
+/* .techStack h3{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      color: #8e44ad;
+      font-family: 'Orbitron', sans-serif;
+      letter-spacing: 4px;
+      word-spacing: 5px;
+   }   */
+
+   .techStack h3{
+      background-color: #50bea7;
+      border: 1px solid #000000;
+      box-shadow: 13px 13px 10px -8px rgb(82, 80, 80);
+   }
+ .techStack table tr td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    color:#218c74;
+    font-weight: bolder;      
+}
+.techStack h2{
+   background-color: #50bea7;
+   border: 1px solid #000000;
+   box-shadow: 13px 13px 10px -8px rgb(82, 80, 80);
+
+}
+
+
 
 
